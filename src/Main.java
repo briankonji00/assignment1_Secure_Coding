@@ -24,4 +24,9 @@ public class Bank {
         }
         return accountBalance;
     }
+
+    // Method to display account details
+    public void display() {
+        System.out.println("The account type is " + accountType + " and the balance is " + accountBalance);
+    }
 }
