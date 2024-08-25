@@ -3,6 +3,12 @@ public class Bank {
     private String accountType;
     private double accountBalance;
 
+    // Parameterized constructor
+    public Bank(String accountType, double accountBalance) {
+        this.accountType = accountType;
+        this.accountBalance = accountBalance;
+    }
+
     // Method to deposit money
     public double deposit(double amount) {
         accountBalance += amount;
